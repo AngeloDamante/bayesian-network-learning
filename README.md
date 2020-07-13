@@ -1,13 +1,13 @@
-xNecessario:
+#Need:
 - Python 3.6
-- libreria networkx per gestire i grafi
-- libreria numpy per gestire array multidimensionali
-- libreria matplotlib per salvare il .png della rete
+- networkx library to handle graphs
+- numpy library to handle multidimensional array
+- matplotlib to save file.png of network
 
-Files:
-- Main.py: contiene il programma
-- Funzioni.py: contiene le funzioni chiamate dal main
-- Asia.txt: dataset della rete Asia
-- Asia.png: grafo in png della rete Asia (bnlearn.com)
-- grafo.png: grafo della rete salvato dal programma
-- Relazione.pdf: relazione dell'elaborato# bayesian-network-learning
+#Files:
+- Main.py
+- Funzioni.py: functions used
+- Asia.txt: dataset
+- Asia.png: Graph of Asia network (bnlearn.com)
+- grafo.png
+- Relazione.pdf: report about bayesian-network-learning project
