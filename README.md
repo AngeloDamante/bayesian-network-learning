@@ -17,8 +17,7 @@ The goal of this project is to build a bayesian network. The dataset is generate
 Learning is done by applying a score-based model to the dataset. The model used is "Cooper & Herskovits" formula with likelihood function.
 
 ## Learning
-![equation](https://latex.codecogs.com/gif.latex?\prod_{i=1}^{n}&space;\prod_{j=1}^{q_i}&space;\frac{\Gamma(\alpha_{ij})}{\Gamma(\alpha_{ij}&space;&plus;&space;N_{ij})}&space;\cdot&space;\prod_{k=1}^{r_i}&space;\frac{\Gamma(\alpha_{ijk}&space;&plus;&space;N_{ijk})}{\Gamma(\alpha_{ijk})}) ![equation](https://latex.codecogs.com/gif.latex?\Longrightarrow&space;\sum_{i=1}^{n}&space;q_i&space;\cdot&space;\log(r_i&space;-&space;1)!&space;-&space;\sum_{j=1}^{q_i}&space;\log(N_{ij}&space;&plus;&space;r_i&space;-1)!&space;&plus;&space;\sum_{k=1}^{r_i}&space;\log(N_{ijk})!)
-
-
-
+<p align=center>
+  <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\prod_{i=1}^n&space;\prod_{j=1}^{q_i}\frac{\Gamma(\alpha_{ij})}{\Gamma(\alpha_{ij}&space;&plus;&space;N_{ij})}&space;\cdot&space;\prod_{k=1}^{r_i}&space;\frac{\Gamma(\alpha_{ijk}&space;&plus;&space;N_{ijk})}{\Gamma(\alpha_{ijk})}&space;\Rightarrow" title="\prod_{i=1}^n \prod_{j=1}^{q_i}\frac{\Gamma(\alpha_{ij})}{\Gamma(\alpha_{ij} + N_{ij})} \cdot \prod_{k=1}^{r_i} \frac{\Gamma(\alpha_{ijk} + N_{ijk})}{\Gamma(\alpha_{ijk})} \Rightarrow" /> <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sum_{i=1}^n&space;q_i&space;\cdot&space;\log(r_i&space;-&space;1)!&space;-&space;\sum_{j=1}^{q_i}\log(N_{ij}&space;&plus;&space;r_i&space;-&space;1)!&space;&plus;&space;\sum_{k=1}^{r_i}&space;\log(N_{ijk})!" title="\sum_{i=1}^n q_i \cdot \log(r_i - 1)! - \sum_{j=1}^{q_i}\log(N_{ij} + r_i - 1)! + \sum_{k=1}^{r_i} \log(N_{ijk})!" />
+</p>
 
